@@ -21,3 +21,46 @@ networking/
 linux/
 windows/
 notes/
+
+
+
+## Linux Basics
+
+echo  
+Prints text to terminal  
+
+whoami  
+Shows current user  
+
+ls  
+Lists files and directories  
+
+cd  
+Changes directory  
+
+pwd  
+Shows current directory path  
+
+cat  
+Displays file content  
+
+find  
+Search for files  
+
+grep  
+Search inside files  
+
+-R  
+Recursive search  
+
+&  
+Run command in background  
+
+&&  
+Run second command if first succeeds  
+
+>  
+Redirect output (overwrite)  
+
+>>  
+Redirect output (append)
