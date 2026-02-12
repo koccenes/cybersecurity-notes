@@ -24,43 +24,94 @@ notes/
 
 
 
-## Linux Basics
+# Linux Basics
 
-echo  
-Prints text to terminal  
+---
 
-whoami  
-Shows current user  
+## 📁 Directory Listing
 
-ls  
-Lists files and directories  
+ls                -> Lists files in current directory  
+ls -l             -> Detailed list  
+ls -r -l          -> Reverse + detailed list  
+ls -lt            -> Sort by time  
+ls -S             -> Sort by size  
+ls -l /var/log    -> Lists logs directory  
 
-cd  
-Changes directory  
+---
 
-pwd  
-Shows current directory path  
+## 📍 Navigation
 
-cat  
-Displays file content  
+pwd               -> Shows current path  
+cd                -> Change directory  
+cd ..             -> Go up one directory  
 
-find  
-Search for files  
+---
 
-grep  
-Search inside files  
+## 📝 Text & Output
 
--R  
-Recursive search  
+echo              -> Prints text to terminal  
+cat               -> Displays file content  
 
-&  
-Run command in background  
+---
 
-&&  
-Run second command if first succeeds  
+## 🔎 Searching
 
->  
-Redirect output (overwrite)  
+find              -> Search for files  
+grep              -> Search inside files  
+grep -R           -> Recursive search inside files  
 
->>  
-Redirect output (append)
+---
+
+## 👤 User & Privileges
+
+whoami            -> Shows current user  
+su                -> Switch user  
+sudo              -> Run command as administrator  
+
+---
+
+## ⚙️ Command Operators
+
+&                 -> Run command in background  
+&&                -> Run second command if first succeeds  
+>                 -> Redirect output (overwrite)  
+>>                -> Redirect output (append)  
+
+---
+
+## 🔐 File Permissions
+
+Example:
+
+-rw-r--r--
+
+### First Character
+
+-   File  
+d   Directory  
+l   Link  
+
+### Permission Groups
+
+rw-   -> Owner  
+r--   -> Group  
+r--   -> Others  
+
+### Permission Letters
+
+r -> Read  
+w -> Write  
+x -> Execute  
+- -> No permission  
+
+---
+
+## 📄 File Information (ls -l)
+
+Hard Link Count  
+User Owner  
+Group Owner  
+File Size  
+Timestamp  
+File Name  
+
