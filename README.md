@@ -117,10 +117,10 @@ File Name
 
 ## chown -> Change file owner
 
-chown user file.txt
-chown user:group file.txt
-chown :group file.txt
-chown -R user:group folder/
+- chown user file.txt
+- chown user:group file.txt
+- chown :group file.txt
+- chown -R user:group folder/
 
 Used to change ownership of files and directories.
 Usually requires sudo.
