@@ -329,9 +329,7 @@ chage -l username          -> Show password aging info
 
 vi file.txt -> Opens file in vi editor
 
-==================================================
 MODES
-==================================================
 
 ESC -> Switch to Command Mode (control mode)
 
@@ -345,9 +343,7 @@ O   -> Open new line above
 
 :   -> Enter Ex Mode (used for save/quit commands)
 
-==================================================
 MOVEMENT
-==================================================
 
 h -> Move left
 j -> Move down
@@ -364,50 +360,38 @@ gg -> Go to top of file
 G  -> Go to end of file
 5G -> Go to line 5
 
-==================================================
 DELETE
-==================================================
 
 dd   -> Delete current line
 3dd  -> Delete 3 lines
 dw   -> Delete one word
 d3w  -> Delete 3 words
 
-==================================================
 CHANGE (Delete + Insert)
-==================================================
 
 cc   -> Change entire line
 cw   -> Change one word
 c3w  -> Change 3 words
 
-==================================================
 YANK (COPY)
-==================================================
 
 yy   -> Copy current line
 3yy  -> Copy 3 lines
 yw   -> Copy one word
 
-==================================================
 PUT (PASTE)
-==================================================
 
 p -> Paste after cursor
 P -> Paste before cursor
 
-==================================================
 SEARCH
-==================================================
 
 /word -> Search forward
 n     -> Next match
 N     -> Previous match
 ?word -> Search backward
 
-==================================================
 SAVE & QUIT
-==================================================
 
 :w   -> Save file
 :q   -> Quit (if no changes)
@@ -415,9 +399,7 @@ SAVE & QUIT
 :q!  -> Quit without saving
 ZZ   -> Save and quit (command mode)
 
-==================================================
 VI COMMAND STRUCTURE (VERY IMPORTANT)
-==================================================
 
 [action][count][motion]
 
