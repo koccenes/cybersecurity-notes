@@ -115,7 +115,7 @@ File Size
 Timestamp  
 File Name  
 
-chown -> Change file owner
+## chown -> Change file owner
 
 chown user file.txt
 chown user:group file.txt
@@ -125,7 +125,7 @@ chown -R user:group folder/
 Used to change ownership of files and directories.
 Usually requires sudo.
 
-cat -> Display file content
+## cat -> Display file content
 
 cat file.txt
 cat file1.txt file2.txt
@@ -136,7 +136,7 @@ cat -n file.txt
 
 Used to view, create, and combine files.
 
-cp -> Copy files and directories
+## cp -> Copy files and directories
 
 cp source.txt dest.txt
 cp file.txt /home/user/Desktop/
@@ -146,7 +146,7 @@ cp -v file.txt dest.txt
 
 Used to copy files and folders.
 
-dd -> Low level disk copy tool
+## dd -> Low level disk copy tool
 
 dd if=input of=output
 sudo dd if=ubuntu.iso of=/dev/sdb bs=4M status=progress
@@ -155,7 +155,7 @@ dd if=/dev/zero of=test.img bs=1M count=100
 
 Used for disk imaging and ISO writing.
 
-chmod -> Change file permissions
+## chmod -> Change file permissions
 
 chmod 755 file.sh
 chmod u+x script.sh
@@ -169,7 +169,7 @@ chmod -R 755 folder/
 
 Used to modify file and directory permissions.
 
-mv -> Move or rename files and directories
+## mv -> Move or rename files and directories
 
 mv file.txt /home/user/Desktop/
 mv oldname.txt newname.txt
@@ -179,7 +179,7 @@ mv -v file.txt destination/
 
 Used to move or rename files and folders.
 
-rm -> Remove files and directories
+## rm -> Remove files and directories
 
 rm file.txt
 rm -r foldername
@@ -189,7 +189,7 @@ rm -i file.txt
 
 Used to delete files and folders.
 
-grep -> Search text inside files
+## grep -> Search text inside files
 
 grep "word" file.txt
 grep -R "word" /path/
